@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+
+public class Simple_Interest {
+    
+    public static void main(String[] args){
+        
+           System.out.println("hi");
+        
+           Scanner si = new Scanner(System.in);
+        
+           int p;
+        
+           System.out.print("Enter principal");
+        
+           p= si.nextInt();
+        
+           System.out.print("Enter rate");
+        
+           int r;
+ 
+           r= si.nextInt();
+
+           System.out.println("Enter time");
+   
+        int t;
+   
+        t= si.nextInt();
+   
+        int SI;
+
+           SI=(p*r*t)/100;
+   
+        System.out.println(SI);
+   
+        System.out.println("Bye");
+        
+    
+     }
+
+}
